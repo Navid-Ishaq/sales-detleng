@@ -8,3 +8,20 @@
 :focus-visible{outline:3px solid #ffbd3d;outline-offset:3px}@media(max-width:900px){.site-header{height:68px}.menu-toggle{display:block}.site-nav{display:none;position:absolute;left:0;right:0;top:68px;flex-direction:column;align-items:stretch;gap:0;padding:12px 20px 18px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 12px 30px rgba(15,35,59,.12)}.site-nav.open{display:flex}.site-nav a{padding:12px}.site-nav .nav-cta{text-align:center;margin-top:5px}.hero{padding:50px 0}.hero-grid{grid-template-columns:1fr;gap:42px}.profile-card{max-width:440px}.contact-grid,.two-column,.approach-grid,.facts-grid,.final-cta-grid{grid-template-columns:1fr;display:grid;gap:34px}.contact-grid{padding:24px 0}.contact-actions{flex-wrap:wrap;gap:22px}.fit-grid{grid-template-columns:repeat(2,1fr)}.section{padding:72px 0}.footer-grid{grid-template-columns:1fr}.final-actions{max-width:500px}}
 @media(max-width:600px){:root{--shell:min(100% - 28px,1160px)}.identity strong{font-size:12px}.identity small{font-size:11px}h1{font-size:43px}.lead{font-size:17px}.hero-actions{align-items:stretch}.hero-actions .button{flex:1 1 100%}.text-link{margin:8px 0 0}.portrait-wrap{height:340px}.status-line span{font-size:12px}.contact-actions{display:grid;width:100%;gap:18px}.two-column{gap:20px}.section{padding:58px 0}.section h2{font-size:32px}.large-prose,.section-heading>p:last-child,.muted-light{font-size:16px}.fit-grid{grid-template-columns:1fr}.role-note{grid-template-columns:1fr;gap:7px}.timeline article{grid-template-columns:1fr;gap:10px}.facts{grid-template-columns:1fr}.approach-grid{gap:42px}.process i{display:none}.final-cta h2{font-size:28px}.final-actions{grid-template-columns:1fr}.footer-grid{gap:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+
+/* Readability pass: keep recruiter-facing copy comfortably legible. */
+.identity strong,.site-nav a,.button,.text-link{font-size:15px}
+.identity small,.eyebrow,.section-kicker,.availability{font-size:13px}
+.status-line span,.profile-card-body>p,.profile-card dl div{font-size:14px}
+.contact-grid>p span,.contact-actions a>span:last-child{font-size:14px}
+.contact-actions small{font-size:12px}
+.fit-grid article>span,.timeline .role,.facts dt{font-size:13px}
+.fit-grid p,.scenario-list p,.tag-list li{font-size:16px}
+.fit-grid p,.scenario-list p{line-height:1.65}
+.tag-list li{padding:6px 11px}
+.timeline-meta small{font-size:14px}
+.role-note p,.timeline article>div:last-child>p:not(.role),.facts dd{font-size:16px}
+.process span{font-size:14px}
+.site-footer p,.back-top{font-size:14px;line-height:1.6}
+@media(max-width:600px){.identity strong{font-size:14px}.identity small{font-size:12px}.status-line span{font-size:14px}}
+
